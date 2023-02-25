@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Aoudia_Bakhti_Patchwork" default="build">
+	
+	<basename property="my.project.name" file="${basedir}"/>
+    
+	<path id="Aoudia_Bakhti_Patchwork.classpath">
+        <pathelement location="classes"/>
+        <pathelement location="lib/zen5.jar"/>
+    </path>
+	
+	  <!-- target compile -->
+    <target name="compile">
+        <mkdir dir="classes"/>
+        <javac srcdir="src" destdir="classes" includeantruntime="false"/>
+    </target>
+	
+	  <!-- target jar -->
+    <target name="jar" depends="compile">
+        <jar destfile="PatchWork.jar" basedir="classes">
+            <manifest>
+                <attribute name="Main-Class" value="fr.uge.main.Main"/>
+            </manifest>
+        </jar>
+    </target>
+  
+	  <!-- target javadoc (NON FONCTIONNELLE) -->
+	  <target name="javadoc" depends="compile">
+	  	<javadoc packagenames="src" sourcepath="src" destdir="docs/doc">
+	  	  <fileset dir="src">
+	  	      <include name="**/*.java" />
+	  	  </fileset>
+	  	</javadoc>
+	  </target>
+  
+  	<!-- target clean -->
+	<target name="clean">
+    	<delete dir="docs/doc"/>
+    	<delete dir="classes/**"/>
+  	</target>
+	
+
+    <target name="run" depends="jar">
+        <java jar="PatchWork.jar" fork="true"/>
+    </target>
+	
+	
+</project>
