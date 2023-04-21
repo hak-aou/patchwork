@@ -27,4 +27,5 @@ Le mode de jeu complet se jouant avec une interface grahique.
 **4. Patchwork automa :**
 Implémentation d'une mode de jeu pour jouer seul.
 
+Pour choisir le mode de jeu voulu, il suffit de taper dans le terminal 1, 2, 3 ou 4 selon le mode de jeu voulu.
 
