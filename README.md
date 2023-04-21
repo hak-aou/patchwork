@@ -13,6 +13,7 @@
 ## Présentation
 Ce projet de programmation en Java consiste à réaliser une version offline du jeu de société Patchwork. Le jeu entre deux joueurs choisissent tour à tour les pièces de tissu qui leur permettront de réaliser le plus bel assemblage.
 L'objectif du projet est de mettre en pratique nos compétences en programmation orientée objet en Java.
+Les deux premières phases ont été reparties en binômes. Pendant que mon camarade s'occupait de la phase 4, j'ai développé la phase 3 le programme avec une interface graphique.
 
 ## Mode de jeu
 **1. La base :**
@@ -28,4 +29,5 @@ Le mode de jeu complet se jouant avec une interface grahique.
 Implémentation d'une mode de jeu pour jouer seul.
 
 Pour choisir le mode de jeu voulu, il suffit de taper dans le terminal 1, 2, 3 ou 4 selon le mode de jeu voulu.
+
 
