@@ -6,8 +6,8 @@
 #### *Note obtenue : 17/20*
 
 <p align="center">
-  <img src="" width="40%" height="40%">
-  <img src="" width="40%" height="40%">
+  <img src="https://github.com/hakimaoudia/patchwork/assets/106891439/5d58fe2e-161a-4f87-bb5b-ce4ff4057425" width="40%" height="40%">
+  <img src="https://github.com/hakimaoudia/patchwork/assets/106891439/283dc434-4a5a-4daa-b770-20b8d36fdba3" width="40%" height="40%">
 </p>
 
 ## Présentation
